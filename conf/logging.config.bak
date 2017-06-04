@@ -1,0 +1,23 @@
+[loggers]
+keys=root,log01
+[logger_root]
+level=DEBUG
+handlers=hand01
+[logger_log01]
+handlers=hand01
+qualname=TEST_LOGGER
+propagate=0
+
+[handlers]
+keys=hand01
+[handler_hand01]
+class=handlers.RotatingFileHandler
+level=INFO
+formatter=form01
+args=('../logs/myapp.log', 'a', 10*1024*1024, 5)
+
+[formatters]
+keys=form01
+[formatter_form01]
+format=%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s
+datefmt=

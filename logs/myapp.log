@@ -1,0 +1,43 @@
+2017-05-04 07:53:01,714 orm.py[line:12] INFO create database connection pool
+2017-05-04 07:53:01,755 async_app.py[line:27] INFO init jinja2...
+2017-05-04 07:53:01,755 async_app.py[line:39] INFO set jinja2 templates path: D:\mydata\python_learn\awesome-python3-webapp\templates
+2017-05-04 07:53:01,781 orm.py[line:95] INFO found model:User(table:users)
+2017-05-04 07:53:01,781 orm.py[line:101] INFO found mapping:email-><StringField,varchar(50):None>
+2017-05-04 07:53:01,783 orm.py[line:101] INFO found mapping:name-><StringField,varchar(50):None>
+2017-05-04 07:53:01,783 orm.py[line:101] INFO found mapping:password-><StringField,varchar(50):None>
+2017-05-04 07:53:01,783 orm.py[line:101] INFO found mapping:create_at-><FloatField,real:None>
+2017-05-04 07:53:01,783 orm.py[line:101] INFO found mapping:admin-><BooleanField,boolean:None>
+2017-05-04 07:53:01,783 orm.py[line:101] INFO found mapping:image-><StringField,varchar(50):None>
+2017-05-04 07:53:01,784 orm.py[line:101] INFO found mapping:id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,784 orm.py[line:95] INFO found model:Blog(table:blogs)
+2017-05-04 07:53:01,784 orm.py[line:101] INFO found mapping:name-><StringField,varchar(50):None>
+2017-05-04 07:53:01,785 orm.py[line:101] INFO found mapping:created_at-><FloatField,real:None>
+2017-05-04 07:53:01,785 orm.py[line:101] INFO found mapping:content-><TextField,text:None>
+2017-05-04 07:53:01,785 orm.py[line:101] INFO found mapping:summary-><StringField,varchar(200):None>
+2017-05-04 07:53:01,785 orm.py[line:101] INFO found mapping:user_name-><StringField,varchar(50):None>
+2017-05-04 07:53:01,787 orm.py[line:101] INFO found mapping:user_image-><StringField,varchar(500):None>
+2017-05-04 07:53:01,787 orm.py[line:101] INFO found mapping:user_id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,787 orm.py[line:101] INFO found mapping:id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,787 orm.py[line:95] INFO found model:Comment(table:comments)
+2017-05-04 07:53:01,788 orm.py[line:101] INFO found mapping:created_at-><FloatField,real:None>
+2017-05-04 07:53:01,788 orm.py[line:101] INFO found mapping:content-><TextField,text:None>
+2017-05-04 07:53:01,788 orm.py[line:101] INFO found mapping:user_name-><StringField,varchar(50):None>
+2017-05-04 07:53:01,788 orm.py[line:101] INFO found mapping:user_image-><StringField,varchar(500):None>
+2017-05-04 07:53:01,789 orm.py[line:101] INFO found mapping:user_id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,789 orm.py[line:101] INFO found mapping:blog_id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,789 orm.py[line:101] INFO found mapping:id-><StringField,varchar(50):None>
+2017-05-04 07:53:01,791 coroweb.py[line:149] INFO add route GET /index => wrapper(args,kw)
+2017-05-04 07:53:01,791 coroweb.py[line:77] INFO RequestHandler init
+2017-05-04 07:53:01,793 coroweb.py[line:140] INFO adding static /static => D:\mydata\python_learn\awesome-python3-webapp\static
+2017-05-04 07:53:01,797 async_app.py[line:126] INFO server started at http://127.0.0.1:10080...
+2017-05-04 18:03:50,095 orm.py[line:12] INFO create database connection pool
+2017-05-04 18:03:50,138 async_app.py[line:27] INFO init jinja2...
+2017-05-04 18:03:50,139 async_app.py[line:39] INFO set jinja2 templates path: D:\mydata\python_learn\awesome-python3-webapp\templates
+2017-05-04 18:03:50,140 coroweb.py[line:138] INFO adding static /static => D:\mydata\python_learn\awesome-python3-webapp\static
+2017-05-04 18:03:50,142 async_app.py[line:135] INFO server started at http://127.0.0.1:10080...
+2017-05-04 18:06:08,016 orm.py[line:12] INFO create database connection pool
+2017-05-04 18:06:08,033 async_app.py[line:27] INFO init jinja2...
+2017-05-04 18:06:08,033 async_app.py[line:39] INFO set jinja2 templates path: D:\mydata\python_learn\awesome-python3-webapp\templates
+2017-05-04 18:06:08,034 coroweb.py[line:138] INFO adding static /static => D:\mydata\python_learn\awesome-python3-webapp\static
+2017-05-04 18:06:08,036 async_app.py[line:133] INFO server started at http://127.0.0.1:10081...
+2017-05-04 18:07:36,117 app.py[line:26] INFO server started at http://127.0.0.1:9000...
